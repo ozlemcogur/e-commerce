@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-ticaret</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>E-Ticaret</h1>
+        <input type="text" placeholder="ürün ismi giriniz">
+        <div>
+            <button id="open-btn">Sepet</button>
+            <button>KayıtOl</button>
+            <button>GirişYap</button>
+        </div>
+    </header>
+    <main>
+    <!-- categories start -->
+      <div class="category-wrapper">
+        <h1>Kategoriler</h1>
+        <div class="categories">
+
+            </div>
+        </div>
+      </div>
+
+     <!-- categories end -->
+     <!-- products start -->
+     <div class="product-wrapper">
+        <h1>Ürünler</h1>
+        <div class="products"></div>
+     </div>
+    <!-- products end -->
+
+    <!-- modal start -->
+    <div class="modal-wrapper">
+        <div class="modal">
+            <img src="images/close.png" alt="" id="close-btn">
+            <div class="modal-list"></div>
+            <div class="total">
+                Toplam:
+                <span id="modal-info">
+                 0
+                </span>
+                $
+            </div>
+        </div>
+    </div>
+    <!-- modal end -->
+    
+    
+
+    </main>
+  
+    <script src="main.js"></script>
+</body>
+</html>
